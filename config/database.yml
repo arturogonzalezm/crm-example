@@ -13,7 +13,7 @@ development: &development
 # Do not set this db to the same as development or production.
 test:
   <<: *development
-  database: fat_free_crm_test
+  database: d95s85sg5haqb9
 
 production:
   <<: *development
