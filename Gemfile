@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 # Uncomment the database that you have configured in config/database.yml
 # ----------------------------------------------------------------------
-# gem 'mysql2'
- gem 'sqlite3'
+ gem 'mysql2'
+ #gem 'sqlite3'
 #gem 'pg'
 
 # Removes a gem dependency

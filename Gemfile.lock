@@ -147,6 +147,7 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.6.0)
     multi_json (1.10.1)
+    mysql2 (0.3.16)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-sftp (2.1.2)
@@ -348,6 +349,7 @@ DEPENDENCIES
   haml
   headless
   jquery-rails (~> 2.1.4)
+  mysql2
   nokogiri
   paper_trail (~> 2.7.0)
   paperclip
@@ -370,7 +372,6 @@ DEPENDENCIES
   select2-rails
   selenium-webdriver
   simple_form (~> 2.0.1)
-  sqlite3
   therubyracer
   thin
   thor
