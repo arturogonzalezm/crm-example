@@ -1,0 +1,9 @@
+#footer
+  Powered by #{link_to "Arturo Gonzalez", "http://www.arturosolutions.com.au", :"data-popup" => true }
+  v#{FatFreeCRM::VERSION::STRING} &copy; 2011-#{Date.today.year} by Arturo Gonzalez.
+
+  - unless tabless_layout?
+    \|
+    /=link_to(t(:about_ffc), "#", :title => t(:about_ffc), :onclick => "$('#about').dialog({ title: this.title, modal: true }); return false;")
+%br
+= render "layouts/about"
